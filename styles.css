@@ -1,0 +1,434 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: sans-serif;
+    color: #2e2e2e;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+   line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.primeira_secao{
+    background-image: url(./assets/Group\ 1.png);
+    height: 770px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primeira_secao >  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header > .logo{
+    width:300px;
+    
+}
+
+.menu{
+    position: absolute;
+    width: 60%;
+    box-sizing: border-box;
+
+}
+
+.menu > nav{
+    display: flex;
+    gap: 25px;
+    justify-content: right;
+    font-size:20px;
+}
+
+
+.menu > nav > a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+.texto_primeira_secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.texto_primeira_secao > h1{
+font-size: 100px;
+font-weight: 700;
+}
+
+.texto_primeira_secao > p{
+    font-size: 30px;
+    }
+
+
+    .segunda_secao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+    gap: 100px;
+    }
+
+    .segunda_secao > img{
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    .segunda_secao > .textos_segunda_secao{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .segunda_secao > .textos_segunda_secao > span{
+        font-size: 15px;
+        margin-bottom: -25px;
+    }
+
+    .segunda_secao > .textos_segunda_secao > h1{
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .segunda_secao > .textos_segunda_secao > p{
+    }
+
+
+    .terceira_secao {
+        background-image: url(./assets/background_preto.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .terceira_secao > .div_terceira_secao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 100px 0;
+        color: #fff;
+        width: 85%;
+        gap: 20px;
+ }
+
+ .terceira_secao > .div_terceira_secao >span{
+    font-size: 15px;
+        margin-bottom: -30px;
+ }
+
+ .terceira_secao > .div_terceira_secao > h1{
+    font-weight: 700;
+        font-size: 50px;
+        color: #F91A86;
+ }
+
+
+ .terceira_secao > .div_terceira_secao > p{
+    text-align: center;
+ }
+        
+
+ .terceira_secao > .div_terceira_secao > .cards_terceira_secao{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 70px;
+ }
+
+ .terceira_secao > .div_terceira_secao > .cards_terceira_secao> .card_cards_terceira_secao{
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.terceira_secao > .div_terceira_secao > .cards_terceira_secao> .card_cards_terceira_secao > h3
+{
+    color: #F91A86;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.terceira_secao > .div_terceira_secao > .cards_terceira_secao> .card_cards_terceira_secao > p
+{
+}
+
+.terceira_secao > .div_terceira_secao > .cards_terceira_secao> .card_cards_terceira_secao > i
+{
+    font-size: 60px;
+}
+
+.quarta_secao {
+    background-image: url(./assets/paralax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    position: relative; 
+    letter-spacing: 2px;
+}
+
+.quarta_secao::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1;
+}
+
+.quarta_secao > .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.quarta_secao > .content > p{
+    width: 85%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.quinta_secao{
+   width: 85%;
+   margin: 0 auto;
+   padding: 100px 0;
+   text-align: center;
+}
+
+.quinta_secao > h2{
+    font-weight: 700;
+        font-size: 50px;
+        color: #F91A86;
+ }
+
+ .quinta_secao > h3{
+    font-weight: 700;
+        font-size: 50px;
+ }
+
+ .quinta_secao > .cards_quinta_secao{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 70px;
+     }
+    
+     .quinta_secao > .cards_quinta_secao> .card_cards_quinta_secao{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        box-shadow: 5px 5px 15px -5px rgba(46, 46, 46, 0.5), 
+        -5px -5px 15px -5px rgba(46, 46, 46, 0.2);
+        border-radius: 20px;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .quinta_secao > .cards_quinta_secao> .card_cards_quinta_secao > h3
+    {
+        color: #F91A86;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .quinta_secao > .cards_quinta_secao> .card_cards_quinta_secao > p
+    {
+        width: 85%;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .sexta_secao{
+        background-color: #2e2e2e;
+        padding: 100px 0;
+    }
+
+    .sexta_secao > .content_sexta_secao{
+        width: 85%;
+        color: #fff;
+        margin: 0 auto;
+        gap: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sexta_secao > .content_sexta_secao{
+        width: 85%;
+        color: #fff;
+        margin: 0 auto;
+        gap: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .sexta_secao > .content_sexta_secao > .texto_sexta_secao{
+        width: 50%;
+        
+    }
+    
+    .sexta_secao > .content_sexta_secao > .texto_sexta_secao >h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .sexta_secao > .content_sexta_secao > .progresso_sexta_secao{
+        width: 50%;
+        padding: 10px;
+    }
+
+    .sexta_secao > .content_sexta_secao > .progresso_sexta_secao >.progresso_box{
+        margin-bottom: 20px;
+    }
+
+    .sexta_secao > .content_sexta_secao > .progresso_sexta_secao >.progresso_box > .progresso_box{
+        background-color: #cecece;
+    }
+
+    .sexta_secao > .content_sexta_secao > .progresso_sexta_secao >.progresso_box > .progresso_box>.progresso{
+        background-color:  #3A87E4;
+        text-align: right;
+        padding: 2px 25px;
+        animation: fillBackground 3s forwards;
+        box-sizing: border-box;
+        
+    }
+
+
+    .sexta_secao > .content_sexta_secao > .progresso_sexta_secao >.progresso_box > .progresso_box>.setenta{
+      width: 70%;
+      animation: fillBackgroundSetenta 3s forwards;
+    }
+
+
+    @keyframes fillBackground {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    @keyframes fillBackgroundSetenta {
+        from {
+            width: 0%; 
+        }
+        to {
+            width: 70%; 
+        }
+    }
+
+    .setima_secao > h2{
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding: 100px 0;
+       background-color: transparent;
+       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      color:  #3A87E4;
+    }
+
+    .setima_secao > .paralax {
+        background-image: url(./assets/paralax_dois.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        color: #fff;
+        position: relative; 
+        letter-spacing: 2px;
+
+    }
+    
+    .setima_secao > .paralax::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    

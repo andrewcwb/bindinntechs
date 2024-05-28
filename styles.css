@@ -522,7 +522,24 @@ margin-top: 70px;
      .rodape{
         background-color: #2e2e2e;
         padding:  100px 0 0;
-        
+        position: relative;
+     }
+
+     .rodape > .up_btn{
+        padding: 20px;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        background-color: #000;
+        right: 50px;
+        position: absolute;
+        top: -30px;
+        display: block;
+     }
+
+     .rodape > .up_btn > i{
+        font-size: 25px;
+        color:#fff
      }
 
      .rodape > .content_rodape{
